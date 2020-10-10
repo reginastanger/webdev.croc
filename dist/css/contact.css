@@ -1,0 +1,67 @@
+/*
+K O N T A C T
+*/
+
+#kontakt {
+    background-color: #ffffff;
+    padding-top: 2rem;
+    position: relative;
+}
+/*
+#kontakt:after {
+    content: "";
+    display: block;
+    height: 3rem;
+    background-color: #383838;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+ */
+
+
+
+#kontakt .contact-info {
+    margin: 2rem 0 1.5rem;
+}
+
+
+
+
+#kontakt .contact-info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#kontakt .contact-info dt {
+    float: left;
+    font-size: 2em;
+    color: #8f9b6c;
+    clear: left;
+}
+
+#kontakt .contact-info dd {
+    float: left;
+    margin: 0;
+    padding-left: 1em;
+}
+
+#kontakt .contact-info dd a {
+    display: inline-block;
+    padding-top: .5em;
+    color: #383838;
+}
+
+#kontakt .form-wrapper {
+    background-color: #e8e8e8;
+margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+#kontakt .form-wrapper .forms-actions {
+    text-align: center;
+}

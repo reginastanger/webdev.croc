@@ -1,0 +1,285 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WebDev 20 02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-25 15:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: functions.php:349
+msgid "<b>ACHTUNG: </b> Das Plugin \"ACF Pro\" muss installiert werden!"
+msgstr ""
+
+#: functions.php:227
+msgid "Add New"
+msgstr ""
+
+#: footer.php:17
+msgid "Adresse"
+msgstr ""
+
+#: index.php:17 archive.php:17
+msgid "Alle"
+msgstr ""
+
+#: functions.php:225
+msgid "Alle Referenzen"
+msgstr ""
+
+#: functions.php:77
+msgid "Background Color"
+msgstr ""
+
+#: header.php:35
+msgid "Blog"
+msgstr ""
+
+#. Author of the theme
+msgid "Christian Hoerzer"
+msgstr ""
+
+#: functions.php:169
+msgid ""
+"Diese Widgets werden nur auf den Beitrags-Detailseiten angezeigt (single.php)"
+msgstr ""
+
+#: footer.php:25
+msgid "E-Mail"
+msgstr ""
+
+#: functions.php:229
+msgid "Edit Item"
+msgstr ""
+
+#: functions.php:299
+msgid "Eigene"
+msgstr ""
+
+#: functions.php:285
+msgid "Einstellungen wurden gespeichert"
+msgstr ""
+
+#: index.php:52 archive.php:52
+msgid "Es wurden keine Beiträge gefunden"
+msgstr ""
+
+#: functions.php:236
+msgid "Featured Image"
+msgstr ""
+
+#: functions.php:244
+msgid "Filter items list"
+msgstr ""
+
+#: functions.php:72
+msgid "Font-Color"
+msgstr ""
+
+#: functions.php:32
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:104
+msgid "Groß"
+msgstr ""
+
+#: functions.php:31
+msgid "Haupt Navigation"
+msgstr ""
+
+#. Name of the template
+msgid "Homepage"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://werbedesign.net/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.wifi.at/"
+msgstr ""
+
+#: functions.php:240
+msgid "Insert into item"
+msgstr ""
+
+#: functions.php:242
+msgid "Items list"
+msgstr ""
+
+#: functions.php:243
+msgid "Items list navigation"
+msgstr ""
+
+#: footer.php:2
+msgid "Kontakt"
+msgstr ""
+
+#: 404.php:5
+msgid ""
+"Leider ist diese Seite zur Zeit nicht verfügbar, versuchen Sie es später "
+"nocheinmal"
+msgstr ""
+
+#: homepage.php:83
+msgid "Mehr Beiträge"
+msgstr ""
+
+#: header.php:19
+msgid "Navigation öffnen/schliessen"
+msgstr ""
+
+#: functions.php:226
+msgid "neue Referenz hinzufügen"
+msgstr ""
+
+#: functions.php:228
+msgid "New Item"
+msgstr ""
+
+#: functions.php:99
+msgid "Normal"
+msgstr ""
+
+#: functions.php:234
+msgid "Not found"
+msgstr ""
+
+#: functions.php:235
+msgid "Not found in Trash"
+msgstr ""
+
+#: index.php:57 archive.php:57
+msgid "Nächste Seite"
+msgstr ""
+
+#: single.php:38
+msgid "Nächster Beitrag"
+msgstr ""
+
+#: 404.php:4
+msgid "Oops, Seite nicht gefunden"
+msgstr ""
+
+#: functions.php:224
+msgid "Parent Item:"
+msgstr ""
+
+#: functions.php:218
+msgctxt "Post Type General Name"
+msgid "Referenzen"
+msgstr ""
+
+#: functions.php:219
+msgctxt "Post Type Singular Name"
+msgid "Referenz"
+msgstr ""
+
+#: functions.php:82
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:247
+msgid "Referenz"
+msgstr ""
+
+#: functions.php:223
+msgid "Referenz Attribute"
+msgstr ""
+
+#: functions.php:220 functions.php:221
+msgid "Referenzen"
+msgstr ""
+
+#: functions.php:222
+msgid "Referenzen Archiv"
+msgstr ""
+
+#: functions.php:238
+msgid "Remove featured image"
+msgstr ""
+
+#: functions.php:233
+msgid "Search Item"
+msgstr ""
+
+#: functions.php:87
+msgid "Secondary Color"
+msgstr ""
+
+#: functions.php:237
+msgid "Set featured image"
+msgstr ""
+
+#: functions.php:167
+msgid "Sidebar für Beitrags-Detailseiten"
+msgstr ""
+
+#: footer.php:8
+msgid "Telefon"
+msgstr ""
+
+#: homepage.php:22
+msgid "Testimonials"
+msgstr ""
+
+#: functions.php:230
+msgid "Update Item"
+msgstr ""
+
+#: functions.php:241
+msgid "Uploaded to this item"
+msgstr ""
+
+#: functions.php:239
+msgid "Use as featured image"
+msgstr ""
+
+#: functions.php:231
+msgid "View Item"
+msgstr ""
+
+#: functions.php:232
+msgid "View Items"
+msgstr ""
+
+#: index.php:56 archive.php:56
+msgid "Vorherige Seite"
+msgstr ""
+
+#: single.php:37
+msgid "Vorheriger Beitrag"
+msgstr ""
+
+#. Name of the theme
+msgid "WebDev 20 02"
+msgstr ""
+
+#. Description of the theme
+msgid "WordPress Theme des WIFI Web Developer Lehrgang"
+msgstr ""
+
+#: header.php:9
+msgid "Zum Inhalt springen"
+msgstr ""
+
+#: template-parts/block-teaser.php:24
+msgid "Zur Seite: "
+msgstr ""
+
+#: 404.php:7
+msgid "Zur Startseite"
+msgstr ""
+
+#: functions.php:284
+msgid "Änderungen speichern"
+msgstr ""

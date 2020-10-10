@@ -1,0 +1,35 @@
+/*
+* L I N E S
+ */
+
+
+
+
+.lines img{
+    max-height: 400px;
+}
+
+#info{
+    padding: 0 20%;
+    text-align: center;
+}
+#line2 {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    min-height: 50vh;
+}
+
+#line2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background: linear-gradient(45deg, #8f9b6c 0%, #5e5e5e 100%);
+    mix-blend-mode: overlay;
+}

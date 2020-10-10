@@ -1,0 +1,31 @@
+/* F O R M */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+    height: 40px;
+    line-height: 39px;
+    width: 100%;
+    padding: 0 .5em;
+    margin: 1em 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+
+textarea {
+    height: 130px;
+    padding: .5em;
+    line-height: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8f9b6c;
+}

@@ -1,0 +1,25 @@
+/* Pagination */
+
+.pagination {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.pagination span,
+.pagination a {
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 25px;
+    padding: 0 .3em;
+    vertical-align: bottom;
+}
+
+.pagination a:hover {
+    color: #7229B2;
+    text-decoration: none;
+}
+
+.pagination span.current {
+    color: #7229B2;
+    font-weight: bold;
+}

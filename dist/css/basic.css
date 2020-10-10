@@ -1,0 +1,154 @@
+/*
+*  B A S I S   S T Y L E S
+ */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    line-height: 1.375;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #383838;
+    font-family: Nunito Sans,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #47556f;
+    text-align: center;
+}
+
+h1 {
+    font-family: Abril Fatface,Times New Roman,Times,serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 2.5em;
+    margin: .67em 0;
+
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1.2em 0 .83em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1.25em;
+    margin: 1em 0 .5em;
+}
+
+.section-title {
+    text-align: center;
+    position: relative;
+    padding-bottom: .5em;
+}
+
+
+
+.section-title:after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #8f9b6c;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+
+
+a {
+    color: #8f9b6c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #47556f;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
+div.wpforms-container-full .wpforms-form button[type="submit"],
+.wp-block-buttons .wp-block-button .wp-block-button__link,
+.btn,
+a.btn,
+button,
+input[type="submit"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    min-height: 40px;
+    padding: 0 1.2em;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #8f9b6c;
+    background: linear-gradient(65deg, #47556f 0%, #8f9b6c 100%);
+    cursor: pointer;
+    transition: box-shadow 200ms linear;
+}
+
+.wp-block-buttons .wp-block-button__link:hover,
+.btn:hover,
+a.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: linear-gradient(65deg, #8f9b6c 0%, #47556f 100%);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .5);
+}
+
+.wp-block-buttons .wp-block-button__link,
+.btn:active,
+a.btn:active,
+button:active,
+input[type="submit"]:active {
+    color: #FFFFFF;
+    background: #47556f;
+}
+
+.wp-block-buttons .wp-block-button__link,
+.btn:focus,
+a.btn:focus,
+button:focus,
+input[type="submit"]:focus {
+    outline: none;
+}

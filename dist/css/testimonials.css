@@ -1,0 +1,28 @@
+/*
+T E S T I M O N I A L S
+*/
+.testimonial-item {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.testimonial-image {
+    display: inline-block;
+    max-width: 250px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.testimonial-content {
+    font-size: 1.4em;
+    margin: 30px 0 0 0;
+}
+
+.testimonial-content cite {
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+    color: #8f9b6c;
+    margin-top: .5em;
+}
+

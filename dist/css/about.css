@@ -1,0 +1,72 @@
+/*
+A B O U T
+*/
+
+body{
+    background-color: #fff;
+}
+
+#about {
+    background-color: #cbd2b7;
+
+}
+
+#about .section-title:after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 50px);
+}
+
+#about .icon-quotes-left{
+    font-size: 7rem;
+    color: #ffffff;
+    padding: 0 1rem;
+
+}
+
+.about-item {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about-image {
+    display: inline;
+    margin: 2rem 5px 5rem 5px;
+    overflow: hidden;
+    max-width: 15rem;
+    padding-top: 2em;
+}
+
+.about-content {
+    font-size: 1.1em;
+    font-style: italic;
+    margin: 2rem 2rem;
+    vertical-align: top;
+    text-align: left;
+}
+
+.about-content cite {
+    display: block;
+    font-size: 2rem;
+    color: #ffffff;
+    margin: .5em;
+    font-family: "Caveat", cursive;
+    text-align: right;
+}
+
+.about > [class^="icon-"],
+.about > [class*=" icon-"] {
+    font-size: 8em;
+    color: #8f9b6c;
+    padding: 40px;
+
+}
+
+.about secondary-bg {
+    background-color: #8f9b6c;
+}

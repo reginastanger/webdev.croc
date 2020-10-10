@@ -1,0 +1,53 @@
+
+/*
+A N I M A T I O N S
+*/
+
+/* Fade-In Effect */
+.js .animate.fade-in {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-delay: 200ms;
+}
+
+.js .animate.fade-in.animated {
+    opacity: 1;
+}
+
+/* Fade-In-Up Effect */
+.js .animate.fade-in-up {
+    opacity: 0;
+    transform: translateY(2rem);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-delay: 200ms;
+}
+
+.js .animate.fade-in-up.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Zoom-In Effect */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(0.5, 0.0, 0.0);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.js .animate.zoom-in {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transition-delay: .2s;
+}
+
+.js .animate.zoom-in.animated {
+    animation-name: zoomIn;
+}

@@ -1,0 +1,49 @@
+/*
+* H E A D E R
+ */
+
+#page-header {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+
+
+/*
+#page-header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background: linear-gradient(45deg, #FFFFFF 0%, #3D93E1 100%);
+    mix-blend-mode: overlay;
+}
+*/
+
+
+#page-header .page-title {
+    display: block;
+    color: #FFFFFF;
+
+    margin: 0;
+    padding: 2em 1em;
+    font-size: 6vw;
+    position: relative;
+}
+
+.home #page-header {
+    max-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-header .scroll-down,
+#intro .image-rotate {
+    display: none;
+}

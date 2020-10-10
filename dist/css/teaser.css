@@ -1,0 +1,40 @@
+/*
+* T E A S E R  (Leistungen)
+*/
+
+
+
+.teaser {
+    padding: 2rem 2rem;
+    position: relative;
+
+}
+
+.teaser > [class^="icon-"],
+.teaser > [class*=" icon-"] {
+    font-size: 3em;
+    color: #8f9b6c;
+}
+
+.teaser .teaser-title {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.teaser .teaser-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.teaser .teaser-link:hover {
+    opacity: .2;
+    text-decoration: none;
+    background-color: #7f8c8d;
+}
+
+

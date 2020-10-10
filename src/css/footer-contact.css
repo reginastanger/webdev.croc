@@ -1,0 +1,64 @@
+
+
+
+/*    F O O T E R - K O N T A K T    */
+
+
+#footer-contact {
+    background-color: #47556f;
+    color: #F4F4F4;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    line-height: 1.4rem;
+    font-size: 1.1em;
+}
+
+#footer-contact h2 {
+    color: #F4F4F4;
+    line-height: 1.6rem;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+}
+
+#footer-contact .address {
+    display: block;
+    text-align: left;
+
+}
+
+a:hover{
+    color: #8f9b6c;
+    text-decoration: none;
+}
+
+#footer-contact, a{
+    display: block;
+    color: #F4F4F4;
+    text-align: center;
+}
+
+#footer-contact .footer-center {
+    color: #F4F4F4;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#footer-contact .footer-right {
+    color: #F4F4F4;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: right;
+}
+
+#footer-contact .contact {
+    display: block;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+/*
+B L O G
+*/
+
+.blog-item {
+    position: relative;
+    background: linear-gradient(45deg, #47556f 0%, #8f9b6c 100%);
+}
+
+.blog-item img {
+    transition: opacity 250ms linear;
+}
+
+.blog-item .blog-description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    background: linear-gradient(45deg, #ffffff 0%, #fff 100%);
+    opacity: 0.2;
+    color: #47556f;
+}
+
+.blog-item .blog-description a {
+    color: #e74c3c;
+}
+
+.blog-item .meta {
+    display: inline-block;
+    font-size: .9em;
+}
+
+.blog-item .blog-title {
+    font-size: 2rem;
+    margin: 0;
+
+}
+
+.blog-item:hover img {
+    opacity: .6;
+}

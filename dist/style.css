@@ -1,0 +1,433 @@
+/*!
+Theme Name: regi_01
+Theme URI: https://www.croc.at/
+Author: Regina Stanger
+Author URI: https://reginastanger.com/
+Description: WordPress Theme des regi Web Developer Lehrgang
+Tags: HTML5
+Version: 1.0.0
+Tested up to: 5.5
+Requires at least: 5.0
+Requires PHP: 7.0
+Text Domain: regi */
+
+@import "css/normalize.css";
+@import "css/icons.css";
+@import "css/reader.css";
+@import "css/basic.css";
+@import "css/form.css";
+@import "css/animation.css";
+@import "css/navigation.css";
+@import "css/header.css";
+@import "css/contact.css";
+@import "css/footer.css";
+@import "css/about.css";
+@import "css/teaser.css";
+@import "css/footer-contact.css";
+@import "css/lines.css";
+@import "css/slides.css";
+@import "css/slide_2.css";
+@import "css/testimonials.css";
+
+
+
+
+
+/*
+*  L A Y O U T
+ */
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.container-small {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sidebar {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.sidebar .widget {
+    background-color: #F4F4F4;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar .widget-title {
+    color: #7229B2;
+    margin-top: 0;
+    box-shadow: inset 0 -3px 0 #EBEBEB;
+}
+
+.sidebar .widget-title span {
+    display: inline-block;
+    padding-bottom: .3em;
+    border-bottom: 3px solid #7229B2;
+}
+
+.sidebar .widget_categories ul,
+.sidebar .widget_nav_menu ul,
+.sidebar .widget_recent_entries ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar .widget_categories ul li,
+.sidebar .widget_nav_menu ul li,
+.sidebar .widget_recent_entries ul li {
+    margin-top: .5em;
+}
+
+.sidebar .widget.widget_categories ul li a,
+.sidebar .widget.widget_nav_menu ul li a{
+    color: #383838;
+    padding-left: .7em;
+    box-shadow: inset 2px 0 0 #383838;
+}
+
+.sidebar .widget.widget_categories ul li a:hover,
+.sidebar .widget.widget_nav_menu ul li a:hover{
+    color: #3D93E1;
+    box-shadow: inset 2px 0 0 #3D93E1;
+    text-decoration: none;
+}
+
+.sidebar .widget.widget_recent_entries ul li span {
+    display: block;
+}
+
+.secondary-bg {
+    background-color: #F4F4F4;
+}
+
+
+#content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#content > section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.main-content{
+    padding-top: 3rem;
+}
+
+.columns {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.columns:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-2,
+.col-3,
+.col-4{
+    padding: .5rem;
+}
+
+.actions {
+    padding-top: 1em;
+    text-align: center;
+}
+/* Gutenberg styles*/
+
+.alignfull {
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+    max-width: 100vw;
+    width: 100vw
+}
+
+.alignfull.has-background {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.alignfull .wp-block-group__inner-container {
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+@media only screen and (min-width: 1200px) {
+    .alignfull .wp-block-group__inner-container {
+        padding-left: 10%;
+        padding-right: 10%
+    }
+}
+
+.alignwide {
+    margin-right: calc(25% - 25vw);
+    margin-left: calc(25% - 25vw)
+}
+
+
+
+/*
+O N L Y   M O B I L E (overwrite)
+*/
+
+@media only screen and (max-width: 460px) {
+
+    .sidebar {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+}
+
+
+/**
+ M O B I L E   L A R G E / L A N D S C A P E
+ */
+
+@media only screen and (min-width: 460px) {
+
+
+
+    .columns {
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4{
+        padding: 1rem;
+    }
+}
+
+
+/*
+T A B L E T   S T Y L E S
+*/
+
+@media only screen and (min-width: 768px) {
+
+
+    .container-small {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .col-2 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-3 {
+        width: calc(100% / 3);
+        float: left;
+    }
+
+    .col-4 {
+        width: calc(25%);
+        float: left;
+    }
+
+
+    .col-2.invert,
+    .col-3.invert,
+    .col-4.invert {
+        float: right;
+    }
+
+    .teaser-row {
+        display: flex;
+    }
+
+    .teaser-row .teaser {
+        height: 100%;
+        text-align: center;
+    }
+
+    .teaser-row .teaser-title {
+        display: block;
+        margin: .8em 0 0;
+    }
+
+    .teaser > [class^="icon-"],
+    .teaser > [class*=" icon-"] {
+        font-size: 2em;
+    }
+
+    .about-item {
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-image {
+        margin: 0 0 0 2rem;
+        flex: none;
+    }
+
+    .about-content {
+        font-size: 1.05em;
+        font-style: italic;
+    }
+
+    .blog-item .blog-description {
+        right: .5rem;
+        bottom: .5rem;
+        left: .5rem;
+    }
+
+    #kontakt .contact-info {
+        columns: 3;
+        max-width: 710px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #kontakt .contact-info dt {
+        float: none;
+        font-size: 2.5em;
+    }
+
+    #kontakt .contact-info dd {
+        float: none;
+        break-before: avoid;
+        padding-left: 0;
+    }
+
+    #kontakt .form-wrapper {
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    #page-footer .columns {
+        display: flex;
+    }
+
+    #page-footer .col-3:nth-of-type(2) {
+        order: -1;
+    }
+
+    #footer-nav > ul {
+        margin: 0;
+        text-align: right;
+    }
+
+    #page-footer .social-links li {
+        padding: 0 .3em;
+        line-height: 2rem;
+    }
+
+    #page-footer .copyright {
+        display: block;
+        text-align: left;
+    }
+
+    .post-pagination .nav-previous {
+        width: 50%;
+        float: left;
+        text-align: right;
+        padding-right: 1.5em;
+    }
+
+    .post-pagination .nav-next {
+        width: 50%;
+        float: right;
+        text-align: left;
+        padding-left: 1.5em;
+    }
+}
+
+
+/*
+S M A L L   S C R E E N
+*/
+
+@media only screen and (min-width: 992px) {
+
+    .main-content {
+        float: left;
+        width: calc(100% - 330px);
+    }
+
+    .sidebar {
+        width: 300px;
+        float: right;
+    }
+
+    /*
+    .cta-contact .wrapper {
+        height: 0;
+    }
+
+    */
+
+
+    .home #page-header {
+        height: calc(100vh - 100px);
+    }
+
+    .home #page-header .scroll-down {
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 2em;
+        z-index: 2;
+        transform: translateX(-50%);
+        color: #FFFFFF;
+        font-size: 40px;
+        transition: transform 250ms linear;
+    }
+
+    .home #page-header .scroll-down:hover {
+        text-decoration: none;
+        transform: translateX(-50%) scale(1.15);
+    }
+
+    .home #content #teaser{
+        padding-top: 0;
+        padding-bottom: 0;
+        position: relative;
+        top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #page-header .page-title {
+        font-size: 60px;
+    }
+
+    .category-nav {
+        margin-top: 5rem;
+    }
+
+}
+
+/*
+L A R G E   S C R E E N
+*/
+
+@media only screen and (min-width: 1200px) {
+
+    .container {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .container-small {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
+}
+

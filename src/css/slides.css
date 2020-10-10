@@ -1,0 +1,76 @@
+/*
+Slides
+*/
+
+
+
+ul, li {
+
+	padding: 0;
+}
+
+
+.slider-1 {
+	margin:30px 50px;
+	display: block;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 40px;
+}
+
+
+
+
+
+
+
+/* SLIDING EFFECTS */
+
+
+.slide {
+	position:relative;
+	/* Set the width and the height according to the size of your pictures */
+	width:300px;
+	height:200px;
+	overflow:hidden;
+	float:right;
+}
+/* Paragraphs and Heading 2 styling, change according to your needs */
+.slide p, .slide h2 {
+	color:#ffffff;
+	padding:10px;
+}
+.slide p {
+	font-size:12px;
+	line-height:18px;
+	color: #47556f;
+	text-align: center;
+}
+.slide h2 {
+	font-size:18px;
+	line-height:24px;
+	color: #47556f;
+}
+
+
+.moveup50 img {
+	position:absolute;
+	left:0;
+	top:0;
+
+	-webkit-transition: top 0.4s ease-in-out;
+	-moz-transition: top 0.4s ease-in-out;
+	-o-transition: top 0.4s ease-in-out;
+	transition: top 0.4s ease-in-out;
+}
+.moveup50 img.top:hover {
+	top:-100px;
+	padding-bottom:100px;
+}
+.half {margin-top:100px;}

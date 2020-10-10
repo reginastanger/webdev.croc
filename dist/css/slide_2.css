@@ -1,0 +1,35 @@
+/*
+* SLIDE 2
+*/
+
+
+
+.slide_regi {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide_regi img {
+    position: relative;
+    z-index: 1;
+    transition: transform 300ms ease-in-out;
+}
+
+.slide_regi:hover img {
+    transform: translateY(-70%);
+}
+
+.regi-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 0.1em;
+
+}
+
+.regi-wrapper p {
+    text-align: center;
+    padding: 0 20px;
+
+}
